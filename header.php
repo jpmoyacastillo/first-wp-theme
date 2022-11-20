@@ -27,7 +27,7 @@
                 </div>
                 <div class="enbezado__logo col-5 col-md-2 px-2 px-md-4">
                     <a href="/">
-                        <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.svg" width="100%" alt="Yard Sales">
+                        <?php the_custom_logo(); ?>
                     </a>
                 </div>
                 <div class="encabezado__menu col-6 col-md-5">
